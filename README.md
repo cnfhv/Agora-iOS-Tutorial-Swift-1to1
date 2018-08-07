@@ -427,4 +427,4 @@ func viewTapped() {
 ```
 
 ## Resources
-If you have any questions, please feel free to reach out via [e-mail](mailto:sid.sharma@agora.io) or [Twitter](https://twitter.com/sidsharma_27).
+If you have any questions, please feel free to reach out via [e-mail](mailto:support@agora.io).
