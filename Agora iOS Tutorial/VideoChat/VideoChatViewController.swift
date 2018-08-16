@@ -43,7 +43,7 @@ class VideoChatViewController: UIViewController {
     // Tutorial Step 2
     func setupVideo() {
         agoraKit.enableVideo()  // Default mode is disableVideo
-        agoraKit.setVideoProfile(.landscape360P, swapWidthAndHeight: false) // Default video profile is 360P
+        agoraKit.setVideoProfile(.landscape240P, swapWidthAndHeight: false) // Default video profile is 240P
     }
     
     // Tutorial Step 3
