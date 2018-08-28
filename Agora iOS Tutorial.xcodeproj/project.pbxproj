@@ -23,6 +23,7 @@
 		1ABDEE7A1D383C66007DE451 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABDEE791D383C66007DE451 /* VideoToolbox.framework */; };
 		1ABDEE7C1D383C71007DE451 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABDEE7B1D383C71007DE451 /* CoreMedia.framework */; };
 		20BB0F231E8A828C003225FC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BB0F221E8A828C003225FC /* libc++.tbd */; };
+		3854ED562135242300650762 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3854ED552135242300650762 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		1ABDEE7D1D383C7C007DE451 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1ABDEE831D383CD0007DE451 /* Agora-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Agora-Bridging-Header.h"; sourceTree = "<group>"; };
 		20BB0F221E8A828C003225FC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3854ED552135242300650762 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3854ED562135242300650762 /* Accelerate.framework in Frameworks */,
 				0F2747CD1FB45A6F005D3DBA /* SystemConfiguration.framework in Frameworks */,
 				20BB0F231E8A828C003225FC /* libc++.tbd in Frameworks */,
 				077322E71E8A68A100ABE911 /* libresolv.tbd in Frameworks */,
@@ -102,6 +105,7 @@
 		1ABDEE811D383C96007DE451 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3854ED552135242300650762 /* Accelerate.framework */,
 				20BB0F221E8A828C003225FC /* libc++.tbd */,
 				077322E61E8A68A100ABE911 /* libresolv.tbd */,
 				1ABDEE7D1D383C7C007DE451 /* SystemConfiguration.framework */,
